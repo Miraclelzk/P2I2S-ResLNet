@@ -47,9 +47,9 @@ cd ../..
 
 ### Data Preparation
 
-- Download the processed ModelNet40 dataset for **PGS-ResLNet** from [here](https://drive.google.com/drive/folders/1PwKuGN3SLJd1GsSg3G8XgMP783v_ON3F?usp=drive_link).
+- Download the processed ModelNet40(1) dataset for **PGS-ResLNet** from [here](https://shapenet.cs.stanford.edu/media/modelnet40_ply_hdf5_2048.zip). 
 
-- Download the processed ModelNet40 dataset for **PPS-ResLNet** and **PPS-ResLNet**  from [here](https://shapenet.cs.stanford.edu/media/modelnet40_ply_hdf5_2048.zip). Or you can download the offical ModelNet from [here](https://shapenet.cs.stanford.edu/media/modelnet40_normal_resampled.zip), and process it by yourself.
+- Download the processed ModelNet40(2) dataset for **PPS-ResLNet** and **PVS-ResLNet**  from [here](https://drive.google.com/drive/folders/1PwKuGN3SLJd1GsSg3G8XgMP783v_ON3F?usp=drive_link). Or you can download the offical ModelNet from [here](https://shapenet.cs.stanford.edu/media/modelnet40_normal_resampled.zip), and process it by yourself.
 
 - Download the official ScanObjectNN dataset from [here](http://103.24.77.34/scanobjectnn).
 
@@ -69,7 +69,6 @@ cd ../..
           |-- main_split/
               |-- training_objectdataset_augmentedrot_scale75.h5
               |-- test_objectdataset_augmentedrot_scale75.h5
-  
   ```
 
 
