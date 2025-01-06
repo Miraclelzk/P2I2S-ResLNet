@@ -32,6 +32,7 @@ pip install h5py
 pip install pyyaml
 pip install tqdm
 pip install spikingjelly
+pip install cupy-cuda11x
 ```
 
 - pointnet2_ops
